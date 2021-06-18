@@ -1,0 +1,65 @@
+{
+  "id": "hero_section",
+  "type": "SharedSlice",
+  "name": "HeroSection",
+  "description": "Hero Section",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default Slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Hero Section",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        },
+        "primary-button-text": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "placeholder": ""
+          }
+        },
+        "primary-button-link": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "secondary-button-text": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "placeholder": ""
+          }
+        },
+        "secondary-button-link": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
