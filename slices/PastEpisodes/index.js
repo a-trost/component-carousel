@@ -1,10 +1,12 @@
 import React from "react";
 import { RichText } from "prismic-reactjs";
 
-const HeroSection = ({ slice, theme }) =>
-  console.log("🚀 ~ file: index.js ~ line 5 ~ HeroSection ~ theme", theme) || (
+const PastEpisodes = ({ slice, themes }) => {
+  console.log(themes);
+  return (
     <section>
       <span className="title">
+        Past episodes
         {slice.primary.title ? (
           <RichText render={slice.primary.title} />
         ) : (
@@ -14,7 +16,7 @@ const HeroSection = ({ slice, theme }) =>
       {slice.primary.description ? (
         <RichText render={slice.primary.description} />
       ) : (
-        <p>start by editing this slice from inside the SliceMachine builder!</p>
+        <p>start by editing this slice from inside Prismic builder!</p>
       )}
       <style jsx>{`
         section {
@@ -28,7 +30,6 @@ const HeroSection = ({ slice, theme }) =>
       `}</style>
     </section>
   );
+};
 
-HeroSection.displayName = HeroSection;
-
-export default HeroSection;
+export default PastEpisodes;

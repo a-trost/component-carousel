@@ -16,22 +16,28 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@fontsource/poppins": "^4.4.5",
+    "@prismicio/helpers": "^2.0.0-alpha.5",
     "next": "^10.0.8",
-    "next-slicezone": "^0.0.14",
+    "next-slicezone": "^0.1.0",
     "next-transpile-modules": "^6.4.0",
     "prismic-javascript": "^3.0.2",
     "prismic-reactjs": "^1.3.3",
     "react": "16.14.0",
     "react-dom": "16.14.0",
+    "react-icons": "^4.2.0",
     "theme-ui": "^0.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@storybook/react": "6.1.21",
+    "@storybook/react": "^6.3.2",
+    "autoprefixer": "^10.2.6",
     "babel-loader": "^8.2.2",
     "babel-plugin-react-require": "^3.1.3",
+    "postcss": "^8.3.5",
     "shx": "^0.3.3",
-    "slice-machine-ui": "^0.1.0-alpha.5",
-    "sm-commons": "^0.0.23"
+    "slice-machine-ui": "alpha",
+    "sm-commons": "^0.0.23",
+    "tailwindcss": "^2.2.2"
   }
 }

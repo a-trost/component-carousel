@@ -1,0 +1,17 @@
+{
+  "id": "past_episodes",
+  "type": "SharedSlice",
+  "name": "PastEpisodes",
+  "description": "PastEpisodes",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PastEpisodes",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}

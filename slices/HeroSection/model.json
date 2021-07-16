@@ -29,26 +29,26 @@
           }
         },
         "primary-button-text": {
-          "type": "Text",
           "config": {
-            "label": "",
+            "label": "Primary Button Text",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
         "primary-button-link": {
-          "type": "Link",
           "config": {
-            "label": "",
+            "label": "Primary Button Link",
             "placeholder": "",
             "allowTargetBlank": true
-          }
+          },
+          "type": "Link"
         },
         "secondary-button-text": {
-          "type": "Text",
           "config": {
-            "label": "",
+            "label": "test",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
         "secondary-button-link": {
           "type": "Link",
