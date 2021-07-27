@@ -2,7 +2,6 @@ import React from "react";
 import { RichText } from "prismic-reactjs";
 
 const NextEpisode = ({ slice, nextEpisode }) => {
-  console.log({ nextEpisode });
   return (
     <section>
       <span className="title">

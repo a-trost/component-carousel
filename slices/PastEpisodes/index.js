@@ -2,7 +2,6 @@ import React from "react";
 import { RichText } from "prismic-reactjs";
 
 const PastEpisodes = ({ slice, themes }) => {
-  console.log(themes);
   return (
     <section>
       <span className="title">
