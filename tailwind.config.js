@@ -8,6 +8,7 @@ module.exports = {
     "./src/**/*.js",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./slices/**/*.{js,ts,jsx,tsx}",
   ],
   variants: {
     animation: ["responsive", "motion-safe", "motion-reduce"],
