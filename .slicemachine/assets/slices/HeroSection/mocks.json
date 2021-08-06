@@ -7,27 +7,36 @@
     "primary": {
       "heading": [
         {
-          "type": "heading2",
-          "text": "Architect wireless niches",
+          "type": "heading1",
+          "text": "Engage proactive ROI",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Eu elit labore veniam magna commodo mollit non pariatur est eiusmod cillum veniam elit. Nisi cupidatat ut officia veniam commodo mollit esse nisi et. Esse ea cupidatat consequat ut minim ipsum est esse ipsum duis ex.",
+          "text": "Consectetur incididunt eu non adipisicing eu ut nostrud. Et laborum est eu consequat veniam nostrud anim ad cupidatat qui eiusmod labore. Laborum id aliqua laboris velit magna.",
           "spans": []
         }
       ],
-      "primary-button-text": "extend web-enabled architectures",
-      "primary-button-link": {
+      "primaryButtonText": "mesh sticky interfaces",
+      "primaryButtonLink": {
         "link_type": "Web",
-        "url": "http://twitter.com"
+        "url": "http://google.com"
       },
-      "secondary-button-text": "innovate collaborative e-business",
-      "secondary-button-link": {
+      "secondaryButtonText": "deliver sexy e-tailers",
+      "secondaryButtonLink": {
         "link_type": "Web",
-        "url": "http://twitter.com"
+        "url": "http://google.com"
+      },
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
       }
     }
   }

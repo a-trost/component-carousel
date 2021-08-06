@@ -18,6 +18,8 @@
   "dependencies": {
     "@fontsource/poppins": "^4.4.5",
     "@prismicio/helpers": "^2.0.0-alpha.5",
+    "date-fns": "^2.23.0",
+    "date-fns-tz": "^1.1.5",
     "next": "^10.0.8",
     "next-slicezone": "^0.1.0",
     "next-transpile-modules": "^6.4.0",

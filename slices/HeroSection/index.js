@@ -5,7 +5,7 @@ import Button from "../../components/Button";
 
 const HeroSection = ({ slice, theme }) => {
   return (
-    <section className="flex flex-col max-w-5xl gap-8 pt-12 mx-auto md:flex-row">
+    <section className="flex flex-col max-w-5xl gap-8 pt-12 mx-auto md:flex-row text-textBlack">
       <div className="flex flex-col flex-1 order-2 gap-4 sm:order-none">
         <RichText
           render={slice.primary.heading}

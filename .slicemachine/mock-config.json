@@ -1,6 +1,17 @@
 {
   "slices": {
-    "HeroSection": {},
+    "HeroSection": {
+      "default": {
+        "primary": {
+          "heading": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
     "NextEpisode": {},
     "PastEpisodes": {}
   },

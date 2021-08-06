@@ -16,7 +16,7 @@
             "label": "Heading",
             "placeholder": "This is where it all begins...",
             "allowTargetBlank": true,
-            "single": "heading2"
+            "single": "heading1"
           },
           "type": "StructuredText"
         },
@@ -28,14 +28,14 @@
             "placeholder": "A nice description of your product"
           }
         },
-        "primary-button-text": {
+        "primaryButtonText": {
           "config": {
             "label": "Primary Button Text",
             "placeholder": ""
           },
           "type": "Text"
         },
-        "primary-button-link": {
+        "primaryButtonLink": {
           "config": {
             "label": "Primary Button Link",
             "placeholder": "",
@@ -43,20 +43,28 @@
           },
           "type": "Link"
         },
-        "secondary-button-text": {
+        "secondaryButtonText": {
           "config": {
-            "label": "test",
+            "label": "Secondary Button text",
             "placeholder": ""
           },
           "type": "Text"
         },
-        "secondary-button-link": {
-          "type": "Link",
+        "secondaryButtonLink": {
           "config": {
-            "label": "",
+            "label": "Secondary Button Link",
             "placeholder": "",
             "allowTargetBlank": true
-          }
+          },
+          "type": "Link"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
         }
       },
       "items": {}
